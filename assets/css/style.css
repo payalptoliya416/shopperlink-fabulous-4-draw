@@ -836,7 +836,9 @@ footer{
     transform: translateY(-55%);
     height: 1.9em;
   }
-  
+  .organize_by h3{
+    white-space: normal;
+  }
 }
 @media (max-width: 320px) {
   .hero_info .para {
@@ -868,7 +870,5 @@ footer{
     left: -30px;
     width: calc(76% + 113px);
   }
-  .organize_by h3{
-    white-space: normal;
-  }
+ 
 }
