@@ -135,6 +135,9 @@ html {
 .cutm-mt {
   margin-top: -30%;
 }
+.mt-16{
+  margin-top: -16px;
+}
 .hero_lucky_winner {
   margin-bottom: 50px;
 }
@@ -256,18 +259,23 @@ html {
   align-items: center;
   padding: 50px 0;
 }
-.organize_by h3 {
+.organize_by a ,.organize_by h3{
   color: #000;
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
+}
+.organize_by a {
+  width: 100%;
+  max-width: 400px;
+  display: block;
 }
 .organize_by img {
   width: 100%;
   max-width: 60px;
   object-fit: cover;
 }
-.organize_by div:first-child {
+.organize_by .first_div {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -286,7 +294,6 @@ html {
     #5f6db7 91%,
     #7091ca 100%
   );
-  border-top: 6px solid #000;
 }
 .enter_img {
   margin-bottom: 20px;
@@ -305,7 +312,9 @@ input[type="checkbox"]:focus {
   padding: 7px 0;
 }
 .enter_draw_form input::placeholder {
-  color: gray;
+  color: rgb(159, 159, 159);
+  font-size: 20px;
+  line-height: 22px;
 }
 .border-b {
   border-bottom: 1px solid #fff;
@@ -463,7 +472,6 @@ cursor: pointer;
     #5a459f 65%,
     #693b92 100%
   );
-  border-top: 6px solid #000;
   padding-bottom: 70px;
 }
 .term_condition_info {
@@ -502,10 +510,14 @@ cursor: pointer;
     #5f6db7 85%,
     #7091ca 100%
   );
-  border-top: 6px solid #000;
   text-align: center;
 }
 /* --ended end */
+
+/* --footer */
+footer{
+  padding:0 27px;
+}
 
 /* --responsive start */
 @media (max-width: 767px) {
@@ -537,7 +549,7 @@ cursor: pointer;
   .participating-info {
     padding: 20px;
   }
-  .organize_by h3 {
+  .organize_by h3 , .organize_by a {
     font-size: 10px;
     line-height: 16px;
   }
@@ -754,7 +766,7 @@ cursor: pointer;
     font-size: 10px;
     line-height: 12px;
   }
-  .organize_by h3 {
+  .organize_by h3 , .organize_by a {
     font-size: 9px;
     line-height: 12px;
   }

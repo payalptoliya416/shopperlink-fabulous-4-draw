@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SopperLink Fabulous 4 Draw</title>
+    <!-- --bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- --fonts  -->
+     <link rel="stylesheet" href="assets/css/fonts.css">
+     <!-- --style -->
+      <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- --Enter draw -->
+       <section class="enter_draw">
+        <div class="enter_img">
+            <img src="assets/image/l3.png" alt="">
+        </div>
+        <div class="container">
+            <h2 class="shadow_text">Enter Draw</h2>
+         <div class="enter_draw_form">
+          <form>
+            <div class="enter_main_div">
+              <div class="mb-4">
+                <label class="form-label" for="fullName">Full Name</label>
+                <input type="text" class="form-control" id="fullName" name="full_name">
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label" for="email">Email (as per registered ShopperLink account)</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="xxxx@xxxx.com">
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label" for="mobile">Mobile No.</label>
+                <input type="text" class="form-control" id="mobile" name="mobile_no" placeholder="xxxx">
+              </div>
+              
+              <div class="border-b">
+                <label class="form-label" for="postal">Postal Code</label>
+                <input type="text" class="form-control" id="postal" name="postal_code" placeholder="xxxx">
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label" for="mall">Participating Mall</label>
+                <select class="mall-select form-select" id="mall" name="participating_mall">
+                  <option value="" selected>Select Option</option>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                </select>
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label" for="merchant">Participating Merchant</label>
+                <select class="mall-select form-select" id="merchant" name="participating_merchant">
+                  <option value="" selected>Select Option</option>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                </select>
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label" for="receiptDate">Date of Receipt</label>
+                <select class="mall-select form-select" id="receiptDate" name="receipt_date">
+                  <option value="" selected>Select Option</option>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                </select>
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label" for="receiptAmount">Receipt Amount</label>
+                <input type="text" class="form-control" id="receiptAmount" name="receipt_amount" placeholder="">
+              </div>
+              
+              <div class="pb-4">
+                <label class="form-label" for="receiptNo">Receipt No.</label>
+                <input type="text" class="form-control" id="receiptNo" name="receipt_no" placeholder="">
+              </div>
+            </div>
+          
+            <div class="upload_parent">
+              <label for="receiptUpload" class="upload-box">
+                <input type="file" id="receiptUpload" name="receipt_image" accept="image/*" style="display: none;">
+                <div class="plus-icon"><img src="assets/image/plus (1).png" alt=""></div>
+                <p class="upload-text">Upload Receipt Image</p>
+                <p class="note-text">Please only submit ONE receipt per entry and ensure that<br>image captured contains all the above details clearly.</p>
+              </label>
+            </div>
+          
+            <div class="confirm-checkbox">
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="consent" name="consent">
+                <label class="form-check-label" for="consent">
+                  I consent to the collection of my information by HDB and the event organiser for Advertising & Promotion purposes.
+                </label>
+              </div>
+          
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="age" name="age_confirm">
+                <label class="form-check-label" for="age">
+                  I confirm that I am at least eighteen (18) years of age.
+                </label>
+              </div>
+          
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="member" name="shopperlink_member">
+                <label class="form-check-label" for="member">
+                  I confirm that I am a registered ShopperLink member.
+                </label>
+              </div>
+          
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms_conditions">
+                <label class="form-check-label" for="terms">
+                  I agree to the <a href="term&condition.html">Terms and Conditions of the ShopperLink Fabulous 4 Draw.</a>
+                </label>
+              </div>
+            </div>
+          
+            <div class="text-center">
+              <a href="thank_you.html" class="btn enter-draw-btn">Submit Receipt</a>
+          </div>
+          
+          </form>
+          
+         </div>
+        </div>
+       </section>
+        <!-- --organize by -->
+        <footer>
+          <div class="organize_by">
+               <div class="first_div">
+                  <h3>Organized by:</h3>
+                  <img src="assets/image/organized.png" alt="">
+               </div>
+               <div>
+                  <div>
+                      <a href="term&condition.html">Terms and Conditions of ShopperLink Fabulous 4 Draw 
+                        </a>
+                      <a href="term&condition.html">
+                         Contact Us</a>
+                  </div>
+               </div>
+           </div>
+      </footer>
+    </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
