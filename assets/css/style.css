@@ -50,7 +50,7 @@ html {
       #5f6db7 85%,
       #7091ca 100%
     ),
-    url(../image/BG.png) no-repeat center center;
+    url('../image/BG.png') no-repeat center center;
 }
 .hero_offer {
   background-image: url("../image/ring.png");
