@@ -275,7 +275,7 @@ html {
   display: block;
 }
 .organize_by a:first-child{
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 .organize_by img {
   width: 100%;
@@ -557,7 +557,7 @@ footer{
     padding: 20px;
   }
   .organize_by h3 , .organize_by a {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 16px;
   }
 }
