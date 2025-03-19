@@ -220,12 +220,14 @@ html {
 .participating-bottom {
   text-align: center;
 }
-.participating-bottom a {
+.participating-bottom .term_link {
   color: white;
   font-size: 18px;
   line-height: 20px;
   font-weight: 500;
+  text-decoration: underline;
 }
+
 .participating-bottom .para {
   color: white;
   font-size: 16px;
@@ -555,7 +557,7 @@ footer{
     padding: 20px;
   }
   .organize_by h3 , .organize_by a {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 16px;
   }
 }
@@ -576,7 +578,7 @@ footer{
     font-size: 12px;
     line-height: 14px;
   }
-  .participating-bottom a {
+  .participating-bottom .term_link {
     font-size: 14px;
     line-height: 16px;
   }
@@ -672,7 +674,7 @@ footer{
     line-height: 12px;
     margin-bottom: 8px;
   }
-  .participating-bottom a {
+  .participating-bottom .term_link {
     font-size: 12px;
     line-height: 14px;
   }
@@ -766,16 +768,12 @@ footer{
     line-height: 18px;
     max-width: 300px;
   }
-  .participating-bottom a {
+  .participating-bottom .term_link {
     font-size: 10px;
     line-height: 14px;
   }
   .participating-bottom .para {
     font-size: 10px;
-    line-height: 12px;
-  }
-  .organize_by h3 , .organize_by a {
-    font-size: 9px;
     line-height: 12px;
   }
   .upload-box {
