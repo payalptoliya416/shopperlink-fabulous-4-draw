@@ -777,6 +777,16 @@ input[type="checkbox"]:focus {
     line-height: 12px;
     margin-bottom: 3px;
 }
+.participating-title {
+  font-size: 13px;
+  line-height: 16px;
+}
+.participating-title::before{
+  top: 58%;
+  transform: translateY(-55%);
+  height :1.9em;
+
+}
 }
 @media (max-width: 320px) {
   .hero_info .para {
