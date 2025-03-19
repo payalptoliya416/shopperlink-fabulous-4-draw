@@ -258,16 +258,22 @@ html {
   align-items: center;
   padding: 50px 0;
 }
+.organize_by h3{
+  white-space: nowrap;
+}
 .organize_by a ,.organize_by h3{
   color: #000;
   font-size: 14px;
   font-weight: 600;
-  line-height: 16px;
+  line-height: 15px;
 }
 .organize_by a {
   width: 100%;
   max-width: 400px;
   display: block;
+}
+.organize_by a:first-child{
+  margin-bottom: 3px;
 }
 .organize_by img {
   width: 100%;
