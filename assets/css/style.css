@@ -732,6 +732,9 @@ cursor: pointer;
     left: -58px;
     width: calc(100% + 113px);
   }
+  .participating {
+    border: 2px solid #fffcbb;
+  }
 }
 
 @media (max-width: 375px) {
