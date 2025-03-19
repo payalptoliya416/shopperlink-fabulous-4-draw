@@ -184,21 +184,24 @@ html {
   background: none;
   z-index: 2;
 }
-
 .participating-title::before {
   content: "";
   position: absolute;
   top: 50%;
-  left: 0;
-  width: 100%;
+  left: -94px;
+  width: calc(100% + 192px);
   height: 1.5em;
-  background: #693b92;
+  background: linear-gradient(to right, 
+    rgba(105, 59, 146, 0) 0%, 
+    #693b92 20%, 
+    #693b92 80%, 
+    rgba(105, 59, 146, 0) 100%);
   z-index: -1;
   transform: translateY(-50%);
+  border-radius: 8px;
 }
-
 .participating-info {
-  padding: 40px;
+  padding: 35px;
 }
 .participating-info label {
   display: block;
@@ -726,6 +729,10 @@ input[type="checkbox"]:focus {
   .organize_by {
     padding: 33px 0;
   }
+  .participating-title::before {
+    left: -58px;
+    width: calc(100% + 113px);
+  }
 }
 
 @media (max-width: 375px) {
@@ -837,4 +844,8 @@ input[type="checkbox"]:focus {
     font-size: 11px;
     line-height: 14px;
   }
+  .participating-title::before {
+    left: -30px;
+    width: calc(76% + 113px);
+}
 }
