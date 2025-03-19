@@ -752,6 +752,9 @@ footer{
   .participating {
     border: 2px solid #fffcbb;
   }
+  footer {
+    padding: 0 18px;
+}
 }
 
 @media (max-width: 375px) {
@@ -835,6 +838,7 @@ footer{
     transform: translateY(-55%);
     height: 1.9em;
   }
+  
 }
 @media (max-width: 320px) {
   .hero_info .para {
