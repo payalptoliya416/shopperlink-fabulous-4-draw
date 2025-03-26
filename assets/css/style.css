@@ -135,7 +135,7 @@ html {
 .cutm-mt {
   margin-top: -30%;
 }
-.mt-16{
+.mt-16 {
   margin-top: -16px;
 }
 .hero_lucky_winner {
@@ -260,10 +260,11 @@ html {
   align-items: center;
   padding: 50px 0;
 }
-.organize_by h3{
+.organize_by h3 {
   white-space: nowrap;
 }
-.organize_by a ,.organize_by h3{
+.organize_by a,
+.organize_by h3 {
   color: #000;
   font-size: 14px;
   font-weight: 600;
@@ -274,7 +275,7 @@ html {
   max-width: 400px;
   display: block;
 }
-.organize_by a:first-child{
+.organize_by a:first-child {
   margin-bottom: 4px;
 }
 .organize_by img {
@@ -346,7 +347,7 @@ input[type="checkbox"]:focus {
   text-align: center;
   color: #fff;
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23fff' stroke-width='2' stroke-dasharray='6%2c 6' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-cursor: pointer;
+  cursor: pointer;
   margin: 40px 0;
 }
 
@@ -522,8 +523,8 @@ cursor: pointer;
 /* --ended end */
 
 /* --footer */
-footer{
-  padding:0 27px;
+footer {
+  padding: 0 27px;
 }
 
 /* --responsive start */
@@ -556,7 +557,8 @@ footer{
   .participating-info {
     padding: 20px;
   }
-  .organize_by h3 , .organize_by a {
+  .organize_by h3,
+  .organize_by a {
     font-size: 11px;
     line-height: 16px;
   }
@@ -756,7 +758,7 @@ footer{
   }
   footer {
     padding: 0 18px;
-}
+  }
 }
 
 @media (max-width: 375px) {
@@ -836,7 +838,7 @@ footer{
     transform: translateY(-55%);
     height: 1.9em;
   }
-  .organize_by h3{
+  .organize_by h3 {
     white-space: normal;
   }
 }
@@ -870,5 +872,4 @@ footer{
     left: -30px;
     width: calc(76% + 113px);
   }
- 
 }
